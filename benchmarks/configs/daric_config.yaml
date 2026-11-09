@@ -1,0 +1,18 @@
+max_chunk_len: 256
+strict_pic: true
+decode_cache_enable: false
+
+# adaption config
+adaption:
+  rerotate: true
+  recompute: true
+  recompute_policy: daric
+  recompute_avg_num: 32
+  function: linear
+  r: 0.5
+
+# KV cache store config
+backend:
+  layer_wise: false
+  port: 40097
+  host: 127.0.0.1

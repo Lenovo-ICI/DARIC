@@ -1,0 +1,5 @@
+{
+    "wikimqa": {"path": "benchmarks/datas/wikimqa_s.json", "max_tokens": 10, "system_prompt": "You will be asked a question after reading several passages. Please directly answer the question based on the given passages. Do NOT repeat the question. The answer should be within 5 words.\nPassages:\n", "user_prompt": "\n\nAnswer the question directly based on the given passages. Do NOT repeat the question. The answer should be within 5 words. \nQuestion:", "metric": "f1"},
+    "musique": {"path": "benchmarks/datas/musique_s.json", "max_tokens": 10, "system_prompt": "You will be asked a question after reading several passages. Please directly answer the question based on the given passages. Do NOT repeat the question. The answer should be within 5 words.\nPassages:\n", "user_prompt": "\n\nAnswer the question directly based on the given passages. Do NOT repeat the question. The answer should be within 5 words. \nQuestion:", "metric": "f1"},
+    "samsum": {"path": "benchmarks/datas/samsum.json", "max_tokens": 32, "system_prompt": "Summarize the dialogue into a few short sentences. The following are some examples.\n\n", "user_prompt": null, "metric": "rl"}
+}
