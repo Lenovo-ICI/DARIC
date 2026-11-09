@@ -1,6 +1,6 @@
 # DARIC
 
-This repository contains the offitial implementation of the SIGMOD'27 paper "A Position-Independent KV Cache Reuse System with Distribution-Aware Recomputation".
+This repository contains the offitial implementation of the SIGMOD'27 paper "[DARIC: A Position-Independent KV Cache Reuse System with Distribution-Aware Recomputation](https://arxiv.org/abs/2611.09109)".
 
 ## Requirements
 
